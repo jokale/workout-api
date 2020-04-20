@@ -1,25 +1,16 @@
-# README
+• Fork and clone the Workout App backend folder
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+• Navigate to the top of the 'workout-api' directory - cd workout-api
 
-Things you may want to cover:
+• Install required gem dependencies: - bundle install
 
-* Ruby version
+• Create and seed the database with the data: - rails db: create - rails db:seed
 
-* System dependencies
+• Begin the server: -rails s
 
-* Configuration
+• Once the server is running we can open by doing the same, forking, cloning workout-js-frontend
 
-* Database creation
+•Once in the directory - type open index.html
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+•Enjoy the app!
 # javascript-project
