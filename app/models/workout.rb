@@ -5,6 +5,9 @@ class Workout < ApplicationRecord
 
     accepts_nested_attributes_for :athlete
     accepts_nested_attributes_for :body_part
+    validates :name, uniqueness: :true
+    validates :description, presence: :true
+
 
     
 end
