@@ -3,6 +3,6 @@ class Athlete < ApplicationRecord
     has_many :body_parts, through: :workouts 
 
 
-    validates :title, uniqueness: :true 
+    validates :name, uniqueness: :true 
 
 end
